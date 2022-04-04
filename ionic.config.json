@@ -1,0 +1,7 @@
+{
+  "name": "o-corp-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
