@@ -9,11 +9,14 @@ const routes = [
   },
   {
     path: '/employees',
-    component: EmployeesPage
+    name: 'Employees',
+    component: EmployeesPage //loads everytime
   },
   {
-    path: '/employees/:id',
-    component: () => import('../pages/EmployeeDetailsPage.vue')
+    path: '/employees/:nid',
+    name: 'Employee Details',
+    component: () => import('../pages/EmployeeDetailsPage.vue'), //loads when called
+    props: true
   },
 ]
 

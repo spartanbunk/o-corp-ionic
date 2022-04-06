@@ -9,7 +9,7 @@
                 <ion-title>{{ pageTitle }}</ion-title>
             </ion-toolbar>
         </ion-header>
-
+        <router-view/>
         <ion-content>
             <slot />
         </ion-content>
